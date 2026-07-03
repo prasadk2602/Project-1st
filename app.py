@@ -3,7 +3,7 @@ import pickle
 
 app = Flask(__name__)
 
-# Load model
+
 with open("models/model.pkl", "rb") as file:
     model = pickle.load(file)
 
